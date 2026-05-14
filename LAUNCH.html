@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>SignSense AI — Launcher</title>
+<style>
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{background:#050a0f;color:#f0f4f8;font-family:'Segoe UI',sans-serif;min-height:100vh;display:grid;place-items:center}
+  .card{background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.1);border-radius:24px;padding:48px 40px;max-width:480px;width:100%;text-align:center;box-shadow:0 0 60px rgba(0,229,255,0.1)}
+  .logo{width:72px;height:72px;border-radius:20px;background:linear-gradient(135deg,#00e5ff,#7c3aed);display:grid;place-items:center;font-size:36px;margin:0 auto 20px;box-shadow:0 0 30px rgba(0,229,255,0.3)}
+  h1{font-size:28px;font-weight:800;letter-spacing:-0.5px;margin-bottom:8px}
+  h1 em{background:linear-gradient(135deg,#00e5ff,#a855f7);-webkit-background-clip:text;-webkit-text-fill-color:transparent;font-style:normal}
+  p{color:#8899aa;font-size:14px;line-height:1.7;margin-bottom:28px}
+  .btn{display:inline-block;padding:14px 32px;border-radius:12px;font-size:15px;font-weight:700;text-decoration:none;cursor:pointer;border:none;transition:all 0.2s}
+  .btn-main{background:linear-gradient(135deg,#00b8d4,#7c3aed);color:#fff;box-shadow:0 0 20px rgba(0,229,255,0.25);width:100%;display:block;margin-bottom:12px}
+  .btn-main:hover{opacity:0.88;transform:translateY(-2px)}
+  .meta{font-size:11px;color:#556677;margin-top:20px;line-height:1.8}
+  .tag{display:inline-block;background:rgba(0,229,255,0.08);border:1px solid rgba(0,229,255,0.2);color:#00e5ff;border-radius:6px;padding:2px 8px;font-size:11px;margin:2px}
+</style>
+</head>
+<body>
+<div class="card">
+  <div class="logo">🤟</div>
+  <h1>Sign<em>Sense</em> AI</h1>
+  <p>Real-time American Sign Language detection powered by MediaPipe + Claude AI. Open the app in your browser — no installation needed.</p>
+  <a class="btn btn-main" href="web-app/signsense-ai.html">🚀 Launch SignSense AI</a>
+  <div>
+    <span class="tag">A–Z Detection</span>
+    <span class="tag">AI Completion</span>
+    <span class="tag">Voice Commands</span>
+    <span class="tag">Translation</span>
+    <span class="tag">Analytics</span>
+    <span class="tag">Offline Mode</span>
+  </div>
+  <div class="meta">
+    📦 Includes: Web App · Python Backend · Full Dataset (29 classes) · Docs<br/>
+    🌐 Requires: Chrome or Edge browser with camera permission
+  </div>
+</div>
+</body>
+</html>
