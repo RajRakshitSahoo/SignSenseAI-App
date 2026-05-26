@@ -1,5 +1,5 @@
 # 🤟 SignSense AI — Real-Time Sign Language Detection System
-shtsutsutsutsutsutd8td8t
+
 > **Convert hand gestures into text, speech, and translations — entirely in your browser, no installation required.**
 
 ---
