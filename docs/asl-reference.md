@@ -1,4 +1,4 @@
-# ASL Hand Shape Reference Guide
+# ASL Hand Shape Reference Guide 
 
 A quick reference for all 29 signs supported by SignSense AI.
 
