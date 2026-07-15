@@ -9,7 +9,7 @@ Optional backend server for:
 Run:
     pip install -r requirements.txt
     python app.py
-
+ 
 API Endpoints:
     GET  /api/health          → Health check
     POST /api/predict         → Predict sign from landmarks JSON
